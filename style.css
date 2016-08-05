@@ -17,8 +17,6 @@ section{
 /*Shipping/billing address*/
 .shipping{
 
-
-
 }
 .shipping p{
 	text-align: left;
@@ -27,4 +25,39 @@ section{
 .shipping input{
 	position: ;
 	text-align: right;
+}
+
+/*Credit Card*/
+
+.payment-form{
+	color: #EE534F;
+	border: 1px solid #EE534F;
+	border-radius: 6px;
+  	padding: 10px 20px;
+  	float: left;
+  	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+}
+
+.payment-form input{
+	margin: 10px;
+	border:none;
+}
+
+input[type="text"] {
+    width: 100%;
+    vertical-align: top;
+    border: 2px solid #00B5B5;
+    border-radius: 4px;
+    font-size: 1.25em;
+    margin: 10px 5px;
+    font-weight: 100;
+    padding: 10px 10px 10px 0;
+    text-indent: 18px;
+    line-height: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+fieldset {
+  border: none;
 }
