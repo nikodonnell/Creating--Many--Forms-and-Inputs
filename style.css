@@ -1,0 +1,30 @@
+
+
+
+
+/*Login form*/
+.login{
+	color: #EE534F;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+}
+section{
+	border: 1px solid #EE534F;
+  	border-radius: 6px;
+  	padding: 10px 20px;
+  	float: right;
+}
+
+/*Shipping/billing address*/
+.shipping{
+
+
+
+}
+.shipping p{
+	text-align: left;
+	
+}
+.shipping input{
+	position: ;
+	text-align: right;
+}
