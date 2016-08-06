@@ -63,7 +63,10 @@ section{
 }
 /*color builder*/
 
-
+.color-builder{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+	border: 1px solid #EE534F;
+}
 
 
 
