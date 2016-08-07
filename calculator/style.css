@@ -1,0 +1,125 @@
+* {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+  box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: #EE534F; 
+    
+}
+
+#name {
+  font-size: 2em; 
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+#calculator {
+  border: px solid #888888;
+  width: 330px;
+  height: 380px;
+  margin: 30px auto;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: white;
+}
+
+.top span.clear {
+  float: left;
+  width: 45px;
+  height: 45px;
+  border: 1px solid #888888;
+  border-radius: 50%;
+  margin-left: 8px;
+  text-align: center;
+  line-height: 45px;
+  text-align: center;
+  font-size: 1.4em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.top span.clear:active {
+	background-color: #DDDDDD;
+  color: #fff;
+  float: left;
+  width: 45px;
+  height: 45px;
+  border: 1px solid #888888;
+  border-radius: 50%;
+  margin-left: 8px;
+  text-align: center;
+  line-height: 45px;
+	text-align: center;
+  font-size: 1.4em;
+  cursor: pointer;
+}
+
+.top .display {
+  height: 45px;
+  width: 220px;
+  margin-right: 5px;
+  float: right;
+  margin-bottom: 10px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  line-height: 45px;
+  padding: 0 15px 0 10px;
+  font-size: 18px;
+  text-align: right;
+  overflow: hidden;
+}
+
+.keys span:hover{
+	background-color:#EE534F; 
+}
+.keys span{
+  color: #00B5B5;
+  float: left;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #00B5B5;
+  border-radius: 50%;
+  text-align: center;
+  margin: 6px;
+  line-height: 56px;
+  text-align: center;
+  font-size: 2em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+}
+
+.keys span:active{
+  background-color: #EE534F;
+  color: #fff;
+  float: left;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #888888;
+  border-radius: 50%;
+  text-align: center;
+  margin: 6px;
+  line-height: 56px;
+	text-align: center;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.unselectable {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+}
